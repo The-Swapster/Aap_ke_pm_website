@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        document.getElementsByTagName("html")[0].className += " js";
+    </script>
+    <link rel="icon" href="flag.svg">
+    <style>
+        .cd-timeline {
+            background-color: #333;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: greenyellow;
+            height: 75px;
+        }
+        
+        li {
+            float: right;
+            font-weight: 300px;
+        }
+        
+        li a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        .dropbtn-content:hover {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            max-height: 10px;
+        }
+        
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(116, 187, 9);
+        }
+        
+        li.dropdown {
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        #id {
+            padding-top: 10px;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #c2bcbc;
+            border-radius: 0px;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            margin-top: 7px;
+            padding: 3px;
+        }
+        
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+        
+        .logo {
+            width: auto;
+            height: 75px;
+        }
+        
+        .pgtitle {
+            text-align: center;
+            word-spacing: 5px;
+            letter-spacing: 3px;
+            color: white;
+            font-size: 30px;
+            padding-top: 35px;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Timeline</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="homepage.php">
+                <div class=lg></div> <img class=logo src=logo2.png> </div>
+            </a>
+
+
+            <li class="dropdown">
+                <a href="index.html" class="dropbtn">Timeline<br><i class="arrow down"></i></a>
+                <div class="dropdown-content">
+                    <a href="index.html#1947">1947</a>
+                    <a href="index.html#19472">1947-48</a>
+                    <a href="index.html#1948">1948</a>
+                    <a href="index.html#1962">1962</a>
+                    <a href="index.html#1965">1965</a>
+                    <a href='index.html#1975'>1975-77</a>
+                    <a href='index.html#1984'>1984</a>
+                    <a href="index.html#1991">1991</a>
+                    <a href='index.html#1999'>1999</a>
+                </div>
+                <li><a href="funfacts.html">Fun<br>Facts</a></li>
+                <li><a href="graphs.html">Economic<br>State</a></li>
+                <li><a href="cabinet.html">Cabinet<br>Ministers</a></li>
+                <li><a href="pmpage.html">Prime<br>Ministers</a></li>
+                <li id="home">
+                    <a href="homepage.php"><br>Home</a>
+                </li>
+
+            </li>
+
+        </ul>
+    </nav>
+
+    <div class=pgtitle style="background-color: #333;"> Historic Events Post Independence</div>
+
+    <section class="cd-timeline js-cd-timeline">
+        <div class="container max-width-lg cd-timeline__container">
+            <div class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--picture">
+                    <img src="assets/img/cd-icon-location.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div id='1947' class="cd-timeline__content text-component">
+                    <h2>Indian independence movement</h2>
+                    <p class="color-contrast-medium">
+                        Independence Day is celebrated annually on 15 August as a national holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947, the day when the provisions of the Indian Independence Act 1947, which transferred legislative
+                        sovereignty to the Indian Constituent Assembly, came into effect. India retained King George VI as head of state until its transition to a full republic, when the nation adopted the Constitution of India on 26 January 1950 (celebrated
+                        as Indian Republic Day) and replaced the dominion prefix, Dominion of India, with the enactment of the sovereign law Constitution of India. India attained independence following the Independence Movement noted for largely non-violent
+                        resistance and civil disobedience.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style="color: white; font-size:30px">15 August 1947</span>
+                        <a href="https://en.wikipedia.org/wiki/Independence_Day_(India)" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div id='19472' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--movie">
+                    <img src="assets/img/cd-icon-location.svg" alt="Movie">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>Indo-Pakistani War of 1947–1948</h2>
+                    <p class="color-contrast-medium">
+                        The Indo-Pakistani War of 1947–1948, sometimes known as the First Kashmir War, was fought between India and Pakistan over the princely state of Jammu and Kashmir from 1947 to 1948. It was the first of four Indo-Pakistan Wars fought between the two newly
+                        independent nations
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style="font-size:30px; color:white">22 Oct 1947 – 5 Jan 1949</span>
+                        <a href="https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1947%E2%80%931948" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div id='1948' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--location">
+                    <img src="assets/img/cd-icon-location.svg" alt="Location">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>Assassination of Mahatma Gandhi</h2>
+                    <p class="color-contrast-medium"> Mahatma Gandhi was assassinated on 30 January 1948 in the compound of Birla House (now Gandhi Smriti), a large mansion in New Delhi. His assassin was Nathuram Godse, an advocate of Hindu nationalism, a member of the political party
+                        the Hindu Mahasabha,and a past member of the Hindu nationalist paramilitary volunteer organisation Rashtriya Swayamsevak Sangh (RSS). Godse considered Gandhi to have been too accommodating to Muslims during the Partition of India
+                        of the previous year
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style="font-size:30px; color:white">30 January 1948</span>
+                        <a href="https://en.wikipedia.org/wiki/Assassination_of_Mahatma_Gandhi" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div id='1962' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--picture">
+                    <img src="assets/img/cd-icon-location.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>The India Sino War</h2>
+                    <p class="color-contrast-medium">
+                        The Sino-Indian War, also known as the Indo-China War and Sino-Indian Border Conflict, was a war between China and India that occurred in 1962. A Chinese disputed Himalayan border was the main cause of the war. There had been a series of violent border
+                        skirmishes between the two countries after the 1959 Tibetan uprising, when India granted asylum to the Dalai Lama. India initiated a defensive Forward Policy from 1960 to hinder Chinese military patrols and logistics, in which
+                        it placed outposts along the border, including several north of the McMahon Line, the eastern portion of the Line of Actual Control proclaimed by Chinese Premier Zhou Enlai in 1959.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style="font-size:30px; color:white">	20 October – 21 November 1962</span>
+                        <a href="https://en.wikipedia.org/wiki/Sino-Indian_War" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div id='1965' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--movie">
+                    <img src="assets/img/cd-icon-location.svg" alt="Movie">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>Indo-Pakistani War of 1965</h2>
+                    <p class="color-contrast-medium">
+                        The Indo-Pakistani War of 1965 was a culmination of skirmishes that took place between April 1965 and September 1965 between Pakistan and India. The conflict began following Pakistan's Operation Gibraltar, which was designed to infiltrate forces into
+                        Jammu and Kashmir to precipitate an insurgency against Indian rule.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style='font-size:30px; color: white;'>April 1965 - September 1965</span>
+                        <a href="https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1965" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+            <div id='1975' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--location">
+                    <img src="assets/img/cd-icon-location.svg" alt="Location">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>National Emergency</h2>
+                    <p class="color-contrast-medium">
+                        In India, "The Emergency" "THE BLACK NIGHT OF INDIA" refers to a 21-month period from 1975 to 1977 when Prime Minister Indira Gandhi had a state of emergency declared across the country. Officially issued by President Fakhruddin Ali Ahmed under Article
+                        352 of the Constitution because of the prevailing "internal disturbance", the Emergency was in effect from 25 June 1975 until its withdrawal on 21 March 1977. The order bestowed upon the Prime Minister the authority to rule by
+                        decree, allowing elections to be suspended and civil liberties to be curbed. For much of the Emergency, most of Indira Gandhi's political opponents were imprisoned and the press was censored. Several other human rights violations
+                        were reported from the time, including a mass forced sterilization campaign spearheaded by Sanjay Gandhi, the Prime Minister's son. The Emergency is one of the most controversial periods of independent India's history.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style='font-size:30px;color: white;'>25 Jun 1975 – 21 Mar 1977</span>
+                        <a href="https://en.wikipedia.org/wiki/The_Emergency_(India)" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div id='1984' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--picture">
+                    <img src="assets/img/cd-icon-location.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>Assassination of Indira Gandhi</h2>
+                    <p class="color-contrast-medium">
+                        Indian Prime Minister Indira Gandhi was assassinated at 9:29 a.m. on 31 October 1984 at her residence in Safdarjung Road, New Delhi. She was killed by her Sikh bodyguards Satwant Singh and Beant Singh in the aftermath of Operation Blue Star.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style="font-size:30px; color:white">	31 October 1984</span>
+                        <a href="https://en.wikipedia.org/wiki/Assassination_of_Indira_Gandhi" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div id='1991' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--movie">
+                    <img src="assets/img/cd-icon-location.svg" alt="Movie">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>Assassination of Rajiv Gandhi</h2>
+                    <p class="color-contrast-medium">
+                        The assassination of Rajiv Gandhi, former Prime Minister of India, occurred as a result of a suicide bombing in Sriperumbudur, Chennai, in Tamil Nadu, India on 21 May 1991. At least 14 others, in addition to Rajiv Gandhi, were killed. It was carried out
+                        by Thenmozhi Rajaratnam (also known as Kalaivani Rajaratnam or Dhanu), a member of the Liberation Tigers of Tamil Eelam (LTTE). At the time, India had just ended its involvement, through the Indian Peace Keeping Force, in the Sri
+                        Lankan Civil War. Subsequent accusations of conspiracy have been addressed by two commissions of inquiry and have brought down at least one national government.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style='font-size:30px;color: white;'> 21 May 1991</span>
+                        <a href="https://en.wikipedia.org/wiki/Assassination_of_Rajiv_Gandhi" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div id='1999' class="cd-timeline__block">
+                <div class="cd-timeline__img cd-timeline__img--location">
+                    <img src="assets/img/cd-icon-location.svg" alt="Location">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component">
+                    <h2>Kargil War</h2>
+                    <p class="color-contrast-medium">
+                        The Kargil War, also known as the Kargil conflict, was an armed conflict between India and Pakistan that took place between May and July 1999 in the Kargil district of Kashmir and elsewhere along the Line of Control
+                    </p>
+
+                    <div class="flex justify-between items-center">
+                        <span class="cd-timeline__date" style="font-size:30px; color:white">May 1999 - July 1999</span>
+                        <a href="https://en.wikipedia.org/wiki/Kargil_War" class="btn btn--subtle">Read more</a>
+                    </div>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+        </div>
+
+
+    </section>
+    <!-- cd-timeline -->
+    <script src="assets/js/main.js"></script>
+
+    <div style="font-size:25px; color:white; background-color:#333; text-align:center; padding:30px;">
+        Want to know about more such historic events?<br><br>
+        <a href=https://en.wikipedia.org/wiki/History_of_India_(1947%E2%80%93present) style='text-decoration: None; background-color: #c2bcbc;color: black; padding:3px; border-radius: 5px;'> 
+            Read more
+        </a>
+    </div>
+</body>
+
+</html>
